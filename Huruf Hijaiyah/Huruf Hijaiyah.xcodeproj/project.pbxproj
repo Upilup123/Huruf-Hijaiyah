@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		460730851F7D3A900098576D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460730841F7D3A900098576D /* Main.storyboard */; };
+		461866E71F78580A000A1D38 /* serah.png in Resources */ = {isa = PBXBuildFile; fileRef = 461866E61F78580A000A1D38 /* serah.png */; };
+		461866E91F7859AA000A1D38 /* pabae.png in Resources */ = {isa = PBXBuildFile; fileRef = 461866E81F7859AA000A1D38 /* pabae.png */; };
+		461866EB1F785E5E000A1D38 /* paaja.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 461866EA1F785E5E000A1D38 /* paaja.jpeg */; };
+		461866ED1F785FBE000A1D38 /* gimana.png in Resources */ = {isa = PBXBuildFile; fileRef = 461866EC1F785FBE000A1D38 /* gimana.png */; };
+		46BD8F1D1F72F3870010B37E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BD8F1C1F72F3870010B37E /* AppDelegate.swift */; };
+		46BD8F1F1F72F3870010B37E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BD8F1E1F72F3870010B37E /* ViewController.swift */; };
+		46BD8F241F72F3870010B37E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46BD8F231F72F3870010B37E /* Assets.xcassets */; };
+		46BD8F321F72F3870010B37E /* Huruf_HijaiyahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BD8F311F72F3870010B37E /* Huruf_HijaiyahTests.swift */; };
+		46BD8F3D1F72F3870010B37E /* Huruf_HijaiyahUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BD8F3C1F72F3870010B37E /* Huruf_HijaiyahUITests.swift */; };
+		46BD8F4D1F72F5F50010B37E /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BD8F4C1F72F5F50010B37E /* images.png */; };
+		46BD8F511F7314550010B37E /* huruf-hijaiyah.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46BD8F501F7314550010B37E /* huruf-hijaiyah.jpg */; };
+		46BD8F531F7315C90010B37E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BD8F521F7315C90010B37E /* LaunchScreen.storyboard */; };
+		46BD8F551F7317CB0010B37E /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 46BD8F541F7317CB0010B37E /* images.jpeg */; };
+		46BD8F571F731BCC0010B37E /* download (1).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 46BD8F561F731BCC0010B37E /* download (1).jpeg */; };
+		46BD8F591F734DF40010B37E /* download (2).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 46BD8F581F734DF40010B37E /* download (2).jpeg */; };
+		46BD8F5B1F7350E70010B37E /* download (3).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 46BD8F5A1F7350E70010B37E /* download (3).jpeg */; };
+		46BD8F5D1F7354CC0010B37E /* download (4).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 46BD8F5C1F7354CC0010B37E /* download (4).jpeg */; };
+		46BD8F5F1F7356E10010B37E /* download (5).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 46BD8F5E1F7356E10010B37E /* download (5).jpeg */; };
+		46BD8F631F735D620010B37E /* download (7).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 46BD8F621F735D620010B37E /* download (7).jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46BD8F2E1F72F3870010B37E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46BD8F111F72F3870010B37E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46BD8F181F72F3870010B37E;
+			remoteInfo = "Huruf Hijaiyah";
+		};
+		46BD8F391F72F3870010B37E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46BD8F111F72F3870010B37E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46BD8F181F72F3870010B37E;
+			remoteInfo = "Huruf Hijaiyah";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		460730841F7D3A900098576D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		461866E61F78580A000A1D38 /* serah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = serah.png; sourceTree = "<group>"; };
+		461866E81F7859AA000A1D38 /* pabae.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pabae.png; sourceTree = "<group>"; };
+		461866EA1F785E5E000A1D38 /* paaja.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paaja.jpeg; sourceTree = "<group>"; };
+		461866EC1F785FBE000A1D38 /* gimana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gimana.png; sourceTree = "<group>"; };
+		46BD8F191F72F3870010B37E /* Huruf Hijaiyah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Huruf Hijaiyah.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46BD8F1C1F72F3870010B37E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46BD8F1E1F72F3870010B37E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46BD8F231F72F3870010B37E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46BD8F281F72F3870010B37E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46BD8F2D1F72F3870010B37E /* Huruf HijaiyahTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Huruf HijaiyahTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46BD8F311F72F3870010B37E /* Huruf_HijaiyahTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Huruf_HijaiyahTests.swift; sourceTree = "<group>"; };
+		46BD8F331F72F3870010B37E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46BD8F381F72F3870010B37E /* Huruf HijaiyahUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Huruf HijaiyahUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46BD8F3C1F72F3870010B37E /* Huruf_HijaiyahUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Huruf_HijaiyahUITests.swift; sourceTree = "<group>"; };
+		46BD8F3E1F72F3870010B37E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46BD8F4C1F72F5F50010B37E /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+		46BD8F501F7314550010B37E /* huruf-hijaiyah.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "huruf-hijaiyah.jpg"; sourceTree = "<group>"; };
+		46BD8F521F7315C90010B37E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46BD8F541F7317CB0010B37E /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		46BD8F561F731BCC0010B37E /* download (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "download (1).jpeg"; sourceTree = "<group>"; };
+		46BD8F581F734DF40010B37E /* download (2).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "download (2).jpeg"; sourceTree = "<group>"; };
+		46BD8F5A1F7350E70010B37E /* download (3).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "download (3).jpeg"; sourceTree = "<group>"; };
+		46BD8F5C1F7354CC0010B37E /* download (4).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "download (4).jpeg"; sourceTree = "<group>"; };
+		46BD8F5E1F7356E10010B37E /* download (5).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "download (5).jpeg"; sourceTree = "<group>"; };
+		46BD8F621F735D620010B37E /* download (7).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "download (7).jpeg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46BD8F161F72F3870010B37E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46BD8F2A1F72F3870010B37E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46BD8F351F72F3870010B37E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46BD8F101F72F3870010B37E = {
+			isa = PBXGroup;
+			children = (
+				46BD8F1B1F72F3870010B37E /* Huruf Hijaiyah */,
+				46BD8F301F72F3870010B37E /* Huruf HijaiyahTests */,
+				46BD8F3B1F72F3870010B37E /* Huruf HijaiyahUITests */,
+				46BD8F1A1F72F3870010B37E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46BD8F1A1F72F3870010B37E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46BD8F191F72F3870010B37E /* Huruf Hijaiyah.app */,
+				46BD8F2D1F72F3870010B37E /* Huruf HijaiyahTests.xctest */,
+				46BD8F381F72F3870010B37E /* Huruf HijaiyahUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46BD8F1B1F72F3870010B37E /* Huruf Hijaiyah */ = {
+			isa = PBXGroup;
+			children = (
+				461866EC1F785FBE000A1D38 /* gimana.png */,
+				461866EA1F785E5E000A1D38 /* paaja.jpeg */,
+				461866E81F7859AA000A1D38 /* pabae.png */,
+				461866E61F78580A000A1D38 /* serah.png */,
+				46BD8F621F735D620010B37E /* download (7).jpeg */,
+				46BD8F5E1F7356E10010B37E /* download (5).jpeg */,
+				46BD8F5C1F7354CC0010B37E /* download (4).jpeg */,
+				46BD8F5A1F7350E70010B37E /* download (3).jpeg */,
+				46BD8F581F734DF40010B37E /* download (2).jpeg */,
+				46BD8F4C1F72F5F50010B37E /* images.png */,
+				46BD8F541F7317CB0010B37E /* images.jpeg */,
+				46BD8F501F7314550010B37E /* huruf-hijaiyah.jpg */,
+				46BD8F561F731BCC0010B37E /* download (1).jpeg */,
+				46BD8F1C1F72F3870010B37E /* AppDelegate.swift */,
+				46BD8F1E1F72F3870010B37E /* ViewController.swift */,
+				460730841F7D3A900098576D /* Main.storyboard */,
+				46BD8F231F72F3870010B37E /* Assets.xcassets */,
+				46BD8F521F7315C90010B37E /* LaunchScreen.storyboard */,
+				46BD8F281F72F3870010B37E /* Info.plist */,
+			);
+			path = "Huruf Hijaiyah";
+			sourceTree = "<group>";
+		};
+		46BD8F301F72F3870010B37E /* Huruf HijaiyahTests */ = {
+			isa = PBXGroup;
+			children = (
+				46BD8F311F72F3870010B37E /* Huruf_HijaiyahTests.swift */,
+				46BD8F331F72F3870010B37E /* Info.plist */,
+			);
+			path = "Huruf HijaiyahTests";
+			sourceTree = "<group>";
+		};
+		46BD8F3B1F72F3870010B37E /* Huruf HijaiyahUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46BD8F3C1F72F3870010B37E /* Huruf_HijaiyahUITests.swift */,
+				46BD8F3E1F72F3870010B37E /* Info.plist */,
+			);
+			path = "Huruf HijaiyahUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46BD8F181F72F3870010B37E /* Huruf Hijaiyah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46BD8F411F72F3870010B37E /* Build configuration list for PBXNativeTarget "Huruf Hijaiyah" */;
+			buildPhases = (
+				46BD8F151F72F3870010B37E /* Sources */,
+				46BD8F161F72F3870010B37E /* Frameworks */,
+				46BD8F171F72F3870010B37E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Huruf Hijaiyah";
+			productName = "Huruf Hijaiyah";
+			productReference = 46BD8F191F72F3870010B37E /* Huruf Hijaiyah.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46BD8F2C1F72F3870010B37E /* Huruf HijaiyahTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46BD8F441F72F3870010B37E /* Build configuration list for PBXNativeTarget "Huruf HijaiyahTests" */;
+			buildPhases = (
+				46BD8F291F72F3870010B37E /* Sources */,
+				46BD8F2A1F72F3870010B37E /* Frameworks */,
+				46BD8F2B1F72F3870010B37E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46BD8F2F1F72F3870010B37E /* PBXTargetDependency */,
+			);
+			name = "Huruf HijaiyahTests";
+			productName = "Huruf HijaiyahTests";
+			productReference = 46BD8F2D1F72F3870010B37E /* Huruf HijaiyahTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46BD8F371F72F3870010B37E /* Huruf HijaiyahUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46BD8F471F72F3870010B37E /* Build configuration list for PBXNativeTarget "Huruf HijaiyahUITests" */;
+			buildPhases = (
+				46BD8F341F72F3870010B37E /* Sources */,
+				46BD8F351F72F3870010B37E /* Frameworks */,
+				46BD8F361F72F3870010B37E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46BD8F3A1F72F3870010B37E /* PBXTargetDependency */,
+			);
+			name = "Huruf HijaiyahUITests";
+			productName = "Huruf HijaiyahUITests";
+			productReference = 46BD8F381F72F3870010B37E /* Huruf HijaiyahUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46BD8F111F72F3870010B37E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Luthfialy;
+				TargetAttributes = {
+					46BD8F181F72F3870010B37E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					46BD8F2C1F72F3870010B37E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46BD8F181F72F3870010B37E;
+					};
+					46BD8F371F72F3870010B37E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46BD8F181F72F3870010B37E;
+					};
+				};
+			};
+			buildConfigurationList = 46BD8F141F72F3870010B37E /* Build configuration list for PBXProject "Huruf Hijaiyah" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46BD8F101F72F3870010B37E;
+			productRefGroup = 46BD8F1A1F72F3870010B37E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46BD8F181F72F3870010B37E /* Huruf Hijaiyah */,
+				46BD8F2C1F72F3870010B37E /* Huruf HijaiyahTests */,
+				46BD8F371F72F3870010B37E /* Huruf HijaiyahUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46BD8F171F72F3870010B37E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BD8F5D1F7354CC0010B37E /* download (4).jpeg in Resources */,
+				461866ED1F785FBE000A1D38 /* gimana.png in Resources */,
+				461866E71F78580A000A1D38 /* serah.png in Resources */,
+				461866E91F7859AA000A1D38 /* pabae.png in Resources */,
+				46BD8F591F734DF40010B37E /* download (2).jpeg in Resources */,
+				46BD8F241F72F3870010B37E /* Assets.xcassets in Resources */,
+				46BD8F571F731BCC0010B37E /* download (1).jpeg in Resources */,
+				46BD8F631F735D620010B37E /* download (7).jpeg in Resources */,
+				46BD8F4D1F72F5F50010B37E /* images.png in Resources */,
+				46BD8F5B1F7350E70010B37E /* download (3).jpeg in Resources */,
+				46BD8F531F7315C90010B37E /* LaunchScreen.storyboard in Resources */,
+				460730851F7D3A900098576D /* Main.storyboard in Resources */,
+				461866EB1F785E5E000A1D38 /* paaja.jpeg in Resources */,
+				46BD8F5F1F7356E10010B37E /* download (5).jpeg in Resources */,
+				46BD8F511F7314550010B37E /* huruf-hijaiyah.jpg in Resources */,
+				46BD8F551F7317CB0010B37E /* images.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46BD8F2B1F72F3870010B37E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46BD8F361F72F3870010B37E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46BD8F151F72F3870010B37E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BD8F1F1F72F3870010B37E /* ViewController.swift in Sources */,
+				46BD8F1D1F72F3870010B37E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46BD8F291F72F3870010B37E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BD8F321F72F3870010B37E /* Huruf_HijaiyahTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46BD8F341F72F3870010B37E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BD8F3D1F72F3870010B37E /* Huruf_HijaiyahUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46BD8F2F1F72F3870010B37E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46BD8F181F72F3870010B37E /* Huruf Hijaiyah */;
+			targetProxy = 46BD8F2E1F72F3870010B37E /* PBXContainerItemProxy */;
+		};
+		46BD8F3A1F72F3870010B37E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46BD8F181F72F3870010B37E /* Huruf Hijaiyah */;
+			targetProxy = 46BD8F391F72F3870010B37E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46BD8F3F1F72F3870010B37E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46BD8F401F72F3870010B37E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46BD8F421F72F3870010B37E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Huruf Hijaiyah/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Luthfialy.Huruf-Hijaiyah";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		46BD8F431F72F3870010B37E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Huruf Hijaiyah/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Luthfialy.Huruf-Hijaiyah";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		46BD8F451F72F3870010B37E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Huruf HijaiyahTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Luthfialy.Huruf-HijaiyahTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Huruf Hijaiyah.app/Huruf Hijaiyah";
+			};
+			name = Debug;
+		};
+		46BD8F461F72F3870010B37E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Huruf HijaiyahTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Luthfialy.Huruf-HijaiyahTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Huruf Hijaiyah.app/Huruf Hijaiyah";
+			};
+			name = Release;
+		};
+		46BD8F481F72F3870010B37E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Huruf HijaiyahUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Luthfialy.Huruf-HijaiyahUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Huruf Hijaiyah";
+			};
+			name = Debug;
+		};
+		46BD8F491F72F3870010B37E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Huruf HijaiyahUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Luthfialy.Huruf-HijaiyahUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Huruf Hijaiyah";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46BD8F141F72F3870010B37E /* Build configuration list for PBXProject "Huruf Hijaiyah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46BD8F3F1F72F3870010B37E /* Debug */,
+				46BD8F401F72F3870010B37E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46BD8F411F72F3870010B37E /* Build configuration list for PBXNativeTarget "Huruf Hijaiyah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46BD8F421F72F3870010B37E /* Debug */,
+				46BD8F431F72F3870010B37E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46BD8F441F72F3870010B37E /* Build configuration list for PBXNativeTarget "Huruf HijaiyahTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46BD8F451F72F3870010B37E /* Debug */,
+				46BD8F461F72F3870010B37E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46BD8F471F72F3870010B37E /* Build configuration list for PBXNativeTarget "Huruf HijaiyahUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46BD8F481F72F3870010B37E /* Debug */,
+				46BD8F491F72F3870010B37E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46BD8F111F72F3870010B37E /* Project object */;
+}

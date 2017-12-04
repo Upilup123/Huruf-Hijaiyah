@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Huruf_Hijaiyah" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ag-kY-zQU">
+                                <rect key="frame" x="279" y="609" width="80" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93333333333333335" green="0.73468137254901966" blue="0.16119695925245095" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="WDE-vB-p04" kind="modal" modalTransitionStyle="coverVertical" id="kud-U2-9B7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Belajar Huruf Hijaiyah" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tj3-9a-3mI">
+                                <rect key="frame" x="16" y="500" width="343" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.73725490199999999" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images.png" translatesAutoresizingMaskIntoConstraints="NO" id="THV-NK-zL5">
+                                <rect key="frame" x="46" y="250" width="283" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.73725490199999999" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="n9P-9G-AoD">
+            <objects>
+                <viewController id="WDE-vB-p04" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AKQ-n0-YyE"/>
+                        <viewControllerLayoutGuide type="bottom" id="VL4-o6-iHx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="96K-cV-RMY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" barStyle="blackTranslucent" translatesAutoresizingMaskIntoConstraints="NO" id="124-2a-9oh">
+                                <rect key="frame" x="0.0" y="-1" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Kata Pengantar" id="yI2-Yy-9Kc">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="57R-75-iN3">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="coverVertical" id="0dY-xM-imu"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tj7-oN-6sI">
+                                <rect key="frame" x="263" y="631" width="112" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93333333330000001" green="0.74509803919999995" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="qxv-QG-nL1" kind="modal" modalTransitionStyle="coverVertical" id="asa-F5-Un8"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="v7J-HZ-Fia">
+                                <rect key="frame" x="0.0" y="203" width="421" height="418"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.73725490199999999" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Assalamualaikum Wr.Wb
+Bismillahirrahmanirrahiim.
+Pertama-tama, ucapkan terima kasih kepada allah swt kami karena restu dan bimbingannya sehingga kami bisa berkumpul di aplikasi ini.
+dan yang kedua, sholawat dan sapaan yang diberikan untuk nabi kita muhammad SAW yang telah membawa dari kegelapan menuju kecerahan, yaitu agama islam, seperti yang kita rasakan hari ini.                                                                                                                  </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="serah.png" translatesAutoresizingMaskIntoConstraints="NO" id="DQz-vg-OI9">
+                                <rect key="frame" x="0.0" y="43" width="375" height="162"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93333333330000001" green="0.73468137249999999" blue="0.1611969593" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="DQz-vg-OI9" secondAttribute="trailing" id="J20-gT-VF4"/>
+                            <constraint firstItem="DQz-vg-OI9" firstAttribute="leading" secondItem="96K-cV-RMY" secondAttribute="leading" id="WNZ-0D-ADa"/>
+                            <constraint firstItem="DQz-vg-OI9" firstAttribute="top" secondItem="124-2a-9oh" secondAttribute="bottom" id="Y2Z-zz-IEj"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="djJ-7k-jhD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="760.79999999999995" y="123.68815592203899"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="R1E-q9-mse">
+            <objects>
+                <viewController id="qxv-QG-nL1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WlY-nL-8S9"/>
+                        <viewControllerLayoutGuide type="bottom" id="jnS-Wg-rwc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9Et-V3-XJF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="blackTranslucent" translatesAutoresizingMaskIntoConstraints="NO" id="bhr-8Q-TIg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Silahkan Pilih" id="Lf2-Z0-hQd">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="h2O-Iq-zZE">
+                                            <connections>
+                                                <segue destination="WDE-vB-p04" kind="modal" modalTransitionStyle="coverVertical" id="4nT-2E-pYS"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYV-Bp-qGF">
+                                <rect key="frame" x="1" y="78" width="375" height="75"/>
+                                <color key="backgroundColor" red="0.93333333333333335" green="0.74509803921568629" blue="0.53725490196078429" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="52"/>
+                                <state key="normal" title="Huruf Hijaiyah">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7UK-gv-xdO" kind="modal" modalTransitionStyle="coverVertical" id="m7x-FS-8jD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="22A-dW-BFs">
+                                <rect key="frame" x="1" y="161" width="375" height="71"/>
+                                <color key="backgroundColor" red="0.93333333333333335" green="0.74509803921568629" blue="0.53725490196078429" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
+                                <state key="normal" title="Makharijul Huruf">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="p8T-uP-buC" kind="modal" modalTransitionStyle="coverVertical" id="uoe-tm-wgW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6tE-1F-NWN">
+                                <rect key="frame" x="40" y="315" width="296" height="36"/>
+                                <color key="backgroundColor" red="0.93333333333333335" green="0.74509803921568629" blue="0.53725490196078429" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="About">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="LZO-V9-Dnc" kind="modal" modalTransitionStyle="coverVertical" id="E9W-p3-WFC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.73725490199999999" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="22A-dW-BFs" secondAttribute="trailing" constant="-1" id="4fi-LT-O9S"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6tE-1F-NWN" secondAttribute="trailing" constant="23" id="5Ta-eF-Pnx"/>
+                            <constraint firstItem="6tE-1F-NWN" firstAttribute="top" secondItem="22A-dW-BFs" secondAttribute="bottom" constant="83" id="9WU-oA-Y8a"/>
+                            <constraint firstAttribute="trailing" secondItem="gYV-Bp-qGF" secondAttribute="trailing" constant="-1" id="Rbk-G8-wcs"/>
+                            <constraint firstItem="gYV-Bp-qGF" firstAttribute="leading" secondItem="9Et-V3-XJF" secondAttribute="leading" constant="1" id="TYB-zA-HMw"/>
+                            <constraint firstItem="22A-dW-BFs" firstAttribute="top" secondItem="gYV-Bp-qGF" secondAttribute="bottom" constant="8" id="eq2-fo-Y6c"/>
+                            <constraint firstItem="22A-dW-BFs" firstAttribute="top" secondItem="gYV-Bp-qGF" secondAttribute="bottom" constant="8" id="fch-ik-s83"/>
+                            <constraint firstItem="6tE-1F-NWN" firstAttribute="leading" secondItem="9Et-V3-XJF" secondAttribute="leadingMargin" constant="24" id="rc6-CH-E1G"/>
+                            <constraint firstItem="22A-dW-BFs" firstAttribute="leading" secondItem="9Et-V3-XJF" secondAttribute="leading" constant="1" id="vgA-tI-zrY"/>
+                            <constraint firstItem="6tE-1F-NWN" firstAttribute="top" secondItem="22A-dW-BFs" secondAttribute="bottom" constant="83" id="wQj-81-wOG"/>
+                            <constraint firstItem="jnS-Wg-rwc" firstAttribute="top" secondItem="6tE-1F-NWN" secondAttribute="bottom" constant="316" id="yAk-SN-Cka"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7WO-sc-rs8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1452" y="123.68815592203899"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="BF9-Rl-4CS">
+            <objects>
+                <viewController id="7UK-gv-xdO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WCM-ZQ-AiC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pi5-qC-NfG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Ju-9J-1Ai">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackTranslucent" translatesAutoresizingMaskIntoConstraints="NO" id="oha-5q-b5l">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="oha-5q-b5l" secondAttribute="height" multiplier="375:44" id="2MN-ev-chb"/>
+                                    <constraint firstAttribute="width" constant="375" id="BXT-m3-hye"/>
+                                    <constraint firstAttribute="height" constant="44" id="INi-uA-wPK"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Huruf Hijaiyah" id="k3e-ff-cRJ">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="lYk-sx-VMk">
+                                            <connections>
+                                                <segue destination="qxv-QG-nL1" kind="modal" modalTransitionStyle="coverVertical" id="aVn-R9-Lyw"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="L1h-fe-25d">
+                                <rect key="frame" x="0.0" y="44" width="422" height="728"/>
+                                <color key="backgroundColor" red="1" green="0.73725490199999999" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Cara Membaca Huruf Hijaiyah 
+
+Al-Qur’an menggunakan bahasa Arab dan huruf hijaiyah. Meski begitu, Al-Qur’an diturunkan bukan cuma untuk orang Arab saja, tetapi seluruh umat Islam di dunia. Untuk itu, agar bisa memahami isi bacaan Al-Qur’an, kita harus tahu cara membacanya. Bagi orang Indonesia, huruf hijaiyah bukan huruf yang utama digunakan sehari-hari. Di sekolah reguler pun yang diajarkan adalah cara membaca huruf latin. Namun, untuk belajar membaca huruf Arab, kini sudah banyak sekolah madrasah atau guru ngaji yang mau mengajarkannya.
+
+Tapi, masih banyak orang yang masih tidak bisa membaca Al-Qur’an. Mungkin ada yang waktu kecil belajar, tapi karena sering tidak dipraktikkan, bacanya jadi tidak lancar. Namun, belajar tidak mengenal kata terlambat. Selagi belum masuk ke liang lahat, masih ada waktu untuk belajar. Agar bisa membaca Al-Qur’an, kita perlu mengenali huruf-huruf hijaiyah, bagaimana bentuknya dan cara membacanya.  Cara bacanya jangan ditelan mentah-mentah, misalnya di situ tulisannya ra, padahal bacanya ro. Kalau dalam penulisan bahasa Indonesia memang begitu, dalam KBBI juga ra artinya huruf nama huruf ke-10 dalam abjad Arab. Kalau pada gambar di atas, ada hamzah di huruf alif. Berdasarkan referensi lainnya, tidak ada hamzah di atas huruf alif.
+
+Kalau cuma membaca tanpa mendengar bagaimana cara pengucapannya yang benar, rasanya masih kurang. Kalau huruf-huruf seperti alif, ba, dan ta, rasanya tidak susah bagi lidah orang Indonesia. Tapi, dengan huruf-huruf yang tidak ada dalam huruf latin seperti dzal, dha, dan dad agak susah karena tidak terbiasa. Itulah dasar-dasar agar bisa membaca huruf Al-Qur’an, kita harus mengenali huruf-huruf hijiaiyah dan cara pelafalannya terlebih dahulu. Metode seperti ini dikenal dengan metode iqro. Ada banyak metode belajar membaca Al-Qur’an, metode iqro salah satunya.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.016584446369999999" green="1" blue="0.01475393211" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="L1h-fe-25d" firstAttribute="top" secondItem="oha-5q-b5l" secondAttribute="bottom" id="M6X-z8-faA"/>
+                            <constraint firstItem="oha-5q-b5l" firstAttribute="leading" secondItem="3Ju-9J-1Ai" secondAttribute="leading" id="NCn-dN-zCq"/>
+                            <constraint firstAttribute="trailing" secondItem="oha-5q-b5l" secondAttribute="trailing" id="QIg-jW-cxZ"/>
+                            <constraint firstAttribute="trailing" secondItem="L1h-fe-25d" secondAttribute="trailing" id="cqa-wM-UM3"/>
+                            <constraint firstItem="oha-5q-b5l" firstAttribute="top" secondItem="3Ju-9J-1Ai" secondAttribute="top" id="gvN-ZL-1Ya"/>
+                            <constraint firstItem="Pi5-qC-NfG" firstAttribute="top" secondItem="L1h-fe-25d" secondAttribute="bottom" id="lOA-JG-2Wv"/>
+                            <constraint firstItem="L1h-fe-25d" firstAttribute="leading" secondItem="3Ju-9J-1Ai" secondAttribute="leading" id="uTK-5i-kLO"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pOJ-7d-9iP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2136.8000000000002" y="123.68815592203899"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="y4h-Tc-7aP">
+            <objects>
+                <viewController id="p8T-uP-buC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="s64-tt-mLP"/>
+                        <viewControllerLayoutGuide type="bottom" id="4nH-QV-ho4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8Lc-Ex-rLy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="blackTranslucent" translatesAutoresizingMaskIntoConstraints="NO" id="DPL-oj-SkB">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Makharijul Huruf" id="MQy-aM-U5E">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="TEr-8l-QJD">
+                                            <connections>
+                                                <segue destination="qxv-QG-nL1" kind="modal" modalTransitionStyle="coverVertical" id="Qzh-Hz-BG3"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zk-2w-K3E">
+                                <rect key="frame" x="85" y="476" width="206" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93333333333333335" green="0.71372549019607845" blue="0.40392156862745099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="1. Al- Jauf">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dee-G2-zjE" kind="modal" modalTransitionStyle="coverVertical" id="byK-LW-N37"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZB8-AI-xzo">
+                                <rect key="frame" x="85" y="514" width="206" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93333333330000001" green="0.71372549019999998" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="2. Al- Halq">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="RYx-aD-mls" kind="modal" modalTransitionStyle="coverVertical" id="kNW-vz-ZwN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ee3-E8-afE">
+                                <rect key="frame" x="85" y="552" width="206" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93333333330000001" green="0.71372549019999998" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="3. Al- Lisan">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="g1d-oO-5h9" kind="modal" modalTransitionStyle="coverVertical" id="lUC-mA-Wck"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VPU-ju-PDw">
+                                <rect key="frame" x="0.0" y="44" width="423" height="397"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.73725490199999999" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Macam-macam Makhorijul Huruf
+Tempat-tempat keluarnya huruf hijaiyah (29) itu memang banyak yang berpendapat, namun dari sekian pendapat yang paling banyak diikuti oleh ulama qurro’ dan ahlul ada’ adalah pendapat Syekh Kholil bin Ahmad an-Nahwiy (Guru Imam Sibaweh). Adapun menurut beliau Makhorijul Huruf Hujaiyah itu ada 17 tempat, dan bila diringkas ada 5 tempat, yatu; Al-Jauf (lubang /rongga mulut), Al-Halqu (tenggorokan / kerongkongan), Al-Lisanu (lidah), Asy-Syafatain (dua bibir) dan Al-Khoisyum (janur hidung).</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Untuk lebih detail tekan pilihan di bawah : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H1t-3U-GBh">
+                                <rect key="frame" x="0.0" y="449" width="378" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Semoga Bermanfaat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YTw-jO-PwI">
+                                <rect key="frame" x="16" y="669" width="343" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.016584446369999999" green="1" blue="0.01475393211" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OC6-xN-WJY">
+                                <rect key="frame" x="85" y="590" width="206" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93333333330000001" green="0.71372549019999998" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="4. Al- Khaisyum">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="6FI-hS-uiK" kind="modal" modalTransitionStyle="coverVertical" id="YEa-JL-cUI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ybE-bg-7HV">
+                                <rect key="frame" x="86" y="633" width="206" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93333333330000001" green="0.71372549019999998" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="5. Asy- Syafatain">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tHe-Ql-YYI" kind="modal" modalTransitionStyle="coverVertical" id="Dk7-ps-WsS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93333333333333335" green="0.74509803921568629" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FaI-bQ-wuc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2808.8000000000002" y="123.68815592203899"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pqc-Mu-H6K">
+            <objects>
+                <viewController id="dee-G2-zjE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cRi-aA-tr1"/>
+                        <viewControllerLayoutGuide type="bottom" id="iLd-Bb-Pf5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YFR-hY-hrH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="blackTranslucent" translatesAutoresizingMaskIntoConstraints="NO" id="rzz-Ep-BKi">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="1. Al- Jauf" id="0DJ-ha-KWn">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="Sjw-lP-pcS">
+                                            <connections>
+                                                <segue destination="p8T-uP-buC" kind="modal" modalTransitionStyle="coverVertical" id="UcD-uW-BLi"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="U7t-Hh-1nI">
+                                <rect key="frame" x="0.0" y="44" width="424" height="722"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.73725490199999999" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">a. Al-Jauf (الجوف), artinya rongga mulut dan rongga tenggorokan.
+
+Yaitu tempat keluarnya huruf hijaiyah yang terletak pada rongga mulut dan rongga tenggorokan. Bunyi huruf yang keluar dari rongga mulut dan rongga tenggorokan ada tiga macam, yaitu ; alif ( ا ), wawu mati ( وْ ) dan ya’ mati ( يْ ) dengan penjelasan sebagai berikut :
+
+1) Alif dan sebelumnya ada huruf yang difathah Contoh : مَالَا غَوَى
+
+2) Wawu mati dan sebelumnya ada huruf yang didhommah Contoh :قُوْلُوْا
+
+3) Ya’ mati dan sebelumnya ada huruf yang dikasrah Contoh :
+
+حَامِدِيْنَ</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.79509468120000004" blue="0.01393308836" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wxo-ac-TWy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3480.8000000000002" y="123.68815592203899"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Lhy-Jr-Py9">
+            <objects>
+                <viewController id="RYx-aD-mls" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zqb-u1-Cvn"/>
+                        <viewControllerLayoutGuide type="bottom" id="6gz-ya-N53"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yVI-i0-KuI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="blackTranslucent" translatesAutoresizingMaskIntoConstraints="NO" id="XI6-YX-3Vi">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="2. Al- Halq" id="1ur-C3-Cp8">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="ZDW-tI-Dik">
+                                            <connections>
+                                                <segue destination="p8T-uP-buC" kind="modal" modalTransitionStyle="coverVertical" id="lk3-8O-wtK"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Xm8-nN-oRk">
+                                <rect key="frame" x="0.0" y="44" width="418" height="709"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.73725490199999999" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">b. Al-Halqu (الحلق), artinya tenggorokan / kerongkongan
+
+Yaitu tempat keluar bunyi huruf hijaiyah yang terletak pada kerongkongan / tenggorokan. Dan berdasarkan perbedaan teknis pelafalannya, huruf-huruf halqiyah (huruf-huruf yang keluar dari tenggorokan) dibagi menjadi tiga bagian yaitu ;
+
+1) Aqshal halqiy (pangkal tenggorokan), yaitu huruf hamzah ( ء )dan ha’ ( ه )
+
+2) Wasthul halqiy (pertengahan tenggorokan), yaitu huruf ha’ ( ح ) dan ’ain ( ع )
+
+3) Adnal halqiy (ujung tenggorokan), yaitu huruf ghoin ( غ ) dan kho’ ( خ )</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.79509468120000004" blue="0.01393308836" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zu1-sx-R3j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4149.6000000000004" y="123.68815592203899"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DAH-cl-Hdl">
+            <objects>
+                <viewController id="g1d-oO-5h9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sti-Pe-n9B"/>
+                        <viewControllerLayoutGuide type="bottom" id="h3A-dR-zdc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rGX-7j-7Pl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="blackTranslucent" translatesAutoresizingMaskIntoConstraints="NO" id="GsJ-Ry-O6a">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="3. Al- Lisan" id="aoU-pK-ZNt">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="ykW-nB-Lro">
+                                            <connections>
+                                                <segue destination="p8T-uP-buC" kind="modal" modalTransitionStyle="coverVertical" id="aV7-Os-FEF"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jhb-Y6-iRo">
+                                <rect key="frame" x="0.0" y="44" width="410" height="719"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.73725490199999999" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">c. Al-Lisan (اللسان), artinya lidah
+
+Bunyi huruf hijaiyah dengan tempat keluarnya dari lidah ada 18 huruf, yaitu : Berdasarkan delapan belas huruf itu dapat dikelompokkan menjadi 10 makhraj, yaitu sebagai berikut :
+
+1) Pangkal lidah dan langit-langit mulut bagian belakang, yaitu huruf Qof (ق). Maksudnya bunyi huruf qof ini keluar dari pangkal lidah dekat dengan kerongkongan yang dihimpitkan ke langit-langit mulut bagian belakang.
+
+2) Pangkal lidah bagian tengah dan langit-langit mulut bagian tengah, yaitu huruf Kaf (ك). Maksudnya bunyi huruf kaf ini keluar dari pangkal lidah di depan makhraj huruf qof, yang dihimpitkan ke langit-langit bagian mulut bagian tengah.
+
+“Dua huruf tersebut ( ق ) dan ( ك ), lazimnya disebut huruf LAHAWIYAH ( لهويّة ), artinya huruf-huruf sebangsa anak mulut atau sebangsa telak lidah.”
+
+3) Tengah-tengah lidah, yaitu huruf Jim ( ج ), Syin ( ش ) dan Ya’ ( ي ). Maksudnya bunyi huruf-huruf tersebut keluar dari tengah-tengah lidah tepat, serta menepati langit-langit mulut yang tepat di atasnya.
+
+“Tiga huruf ini lazimnya disebut huruf SYAJARIYAH ( شجريّة ), artinya huruf-huruf sebangsa tengah lidah.”
+
+4) Pangkat tepi lidah, yaitu huruf Dlod ( ض ).
+
+Maksudnya bunyi huruf Dlod ( ض ) keluar dari tepi lidah (boleh tepi lidah kanan atau kiri) hingga sambung dengan makhrojnya huruf lam, serta menepati graham.
+
+“Huruf Dlod ( ض ) ini lazimnya disebut huruf JAMBIYAH (حنبيّة), artinya huruf sebangsa tepi lidah.”
+
+5) Ujung tepi lidah, yaitu huruf Lam (ل).
+
+Maksudnya bunyi huruf Lam (ل) keluar dari tepi lidah (sebelah kiri/kanan) hingga penghabisan ujung lidah, serta menepati dengan langit-langit mulut atas.
+
+6) Ujung lidah, yaitu huruf Nun (ن).
+
+Maksudnya bunyi huruf Nun (ن) keluar dari ujung lidah (setelah makhrojnya Lam (ل), lebih masuk sedikit ke dasar lidah dari pada Lam (ل)), serta menepati dengan langit-langit mulut atas.
+
+7) Ujung lidah tepat, yaitu huruf Ro’ (ر).
+
+Maksudnya bunyi huruf Ro’ (ر) keluar dari ujung lidah tepat (setelah makhrojnya Nun dan lebih masuk ke dasar lidah dari pda Nun), serta menepati dengan langit-langit mulut atas.
+
+“Tiga huruf tersebut di atas (Lam, Nun dan Ro’), lazimnya disebut huruf DZALQIYAH (ذلقية), artinya huruf-huruf sebangsa ujung lidah.”
+
+8). Kulit gusi atas, yaitu Dal (د), Ta’ (ت) dan Tho’ (ط).
+
+Maksudnya bunyi huruf-huruf tersebut keluar dari ujung lidah, serta menepat i dengan pangkal dua gigi seri yang atas.
+
+“Tiga huruf tersebut lazimnya disebut NATH’IYAH (نطغية), artinya huruf-huruf sebangsa kulit gusi atas.”
+
+9) Runcing lidah, yaitu huruf Shod (ص), Sin (س) dan Za’ (ز).
+
+Maksudnya bunyi huruf-huruf tersebut keluar dari ujung lidah, serta menepati ujung dua gigi seri yang bawah.
+
+“Tiga huruf tersebut lazimnya disebut huruf ASALIYAH (أسلية), artinya huruf-huruf sebangsa runcing lidah.”
+
+10) Gusi, yaitu huruf Dho’ (ظ), Tsa’ (ث) dan Dzal (ذ).
+
+Maksudnya huruf-huruf tersebut keluar dari ujung lidah, serta menepati dengan ujung dua gigi seri yang atas.
+
+“Tiga huruf ini lazimnya disebut huruf LITSAWIYAH (لثوية), artinyahuruf sebangsa gusi.”</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.79509468120000004" blue="0.01393308836" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6LS-8E-wFz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4820" y="123.68815592203899"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="D6p-nE-FcR">
+            <objects>
+                <viewController id="6FI-hS-uiK" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wDJ-s9-afT"/>
+                        <viewControllerLayoutGuide type="bottom" id="Bce-yq-mw6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qOF-Ne-weW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="blackTranslucent" translatesAutoresizingMaskIntoConstraints="NO" id="9Kp-QC-xhc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="4. Al- Khaisyum" id="pA1-x7-6Hs">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="Tkm-7v-L1d">
+                                            <connections>
+                                                <segue destination="p8T-uP-buC" kind="modal" modalTransitionStyle="coverVertical" id="BhO-NY-xOI"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="X6q-Jq-XII">
+                                <rect key="frame" x="0.0" y="44" width="413" height="719"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.73725490199999999" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">d. Al-Khaisyum, artinya pangkal hidung
+
+Yaitu tempat keluarnya huruf hijaiyah yang terletak pada janur hidung. Dan jika kita menutup hidung ketika membunyikan huruf tersebut, maka tidak dapat terdengar. Adapun huruf-hurufnya yaitu huruf-huruf ghunnah mim dan nun dengan ketentuan sebagai berikut:
+
+1) Nun bertasydid (نّ)
+
+2) Mim bertasydid (مّ)
+
+3) Nun sukun yang dibaca idghom bigunnah, iqlab dan ikhfa’ haqiqiy
+
+4) Mim sukun yang bertemu dengan mim (م) atau ba (ب)
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.79509468120000004" blue="0.01393308836" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VR7-Uc-BQY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5468" y="123.68815592203899"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hIp-hh-G0y">
+            <objects>
+                <viewController id="tHe-Ql-YYI" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gp6-dG-PXR"/>
+                        <viewControllerLayoutGuide type="bottom" id="da7-zf-snv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Bob-xa-niT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="blackTranslucent" translatesAutoresizingMaskIntoConstraints="NO" id="hmY-ku-2aq">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="5. Asy- Syafatain" id="uyh-sA-Iak">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="MIk-PL-7d1">
+                                            <connections>
+                                                <segue destination="p8T-uP-buC" kind="modal" modalTransitionStyle="coverVertical" id="eNU-Pb-hHk"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="o6O-QA-pjJ">
+                                <rect key="frame" x="0.0" y="44" width="439" height="720"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.73725490199999999" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">e. Al-Syafatain, artinya dua bibir
+
+Yaitu tempat keluarnya huruf hijaiyah yang terletak pada kedua bibir.Yang termasuk huruf-huruf syafatain ialah wawu (و), fa’ (ف), mim (م) dan ba’ (ب) dengan perincian sebagai berikut :
+
+1) Fa’ (ف) keluar dari dalamnya bibir yang bawah, serta menepati dengan ujung dua gigi seri yang atas.
+
+2) Wawu, Ba, Mim (و , ب , م) keluar dari antara dua bibir (antara bibir atas dan bawah). Hanya saja untuk Wawu bibir membuka, sedangkan untuk Ba dan Mim bibir membungkam.
+
+“Empat huruf tersebut di atas lazimnya disebut huruf SYAFAWIYAH, artinya huruf-huruf sebangsa bibir.”</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.79509468120000004" blue="0.01393308836" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ub2-cX-cgd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6125.6000000000004" y="123.68815592203899"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wBz-Zp-HRN">
+            <objects>
+                <viewController id="LZO-V9-Dnc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1oq-sN-6Yn"/>
+                        <viewControllerLayoutGuide type="bottom" id="Bdg-gk-Xgk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Y05-EP-AaB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackTranslucent" translatesAutoresizingMaskIntoConstraints="NO" id="ceP-j0-Cf6">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <color key="backgroundColor" red="1" green="0.79509468120000004" blue="0.01393308836" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="About Developer" id="8qL-Ct-PJL">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="Ebj-Sn-8DF">
+                                            <connections>
+                                                <segue destination="qxv-QG-nL1" kind="modal" modalTransitionStyle="coverVertical" id="5NH-gx-gI6"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Nama : Luthfi Aly Al- Fatih" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKc-Ew-X73">
+                                <rect key="frame" x="0.0" y="229" width="375" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Panggilan : Luthfi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cp-a9-JG5">
+                                <rect key="frame" x="0.0" y="252" width="375" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alamat : Perumahan Cibarusah Indah, " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SXN-ZJ-Xhp">
+                                <rect key="frame" x="0.0" y="282" width="375" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cikarang Selatan, Bekasi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgM-aA-Iq6">
+                                <rect key="frame" x="0.0" y="305" width="375" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sekolah : SMK IDN Madinatul Ilmi, " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vpg-PM-rfL">
+                                <rect key="frame" x="0.0" y="342" width="375" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jonggol, Bogor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OtT-wq-Sen">
+                                <rect key="frame" x="0.0" y="364" width="375" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kelas : X - RPL 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bf-8Q-p9M">
+                                <rect key="frame" x="0.0" y="395" width="375" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kritik, Saran, atau Komentar chat via : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0z4-QI-bRY">
+                                <rect key="frame" x="0.0" y="429" width="375" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Semoga Bermanfaat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9XQ-1l-5TT">
+                                <rect key="frame" x="16" y="599" width="343" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93333333330000001" green="0.74509803919999995" blue="0.26274509800000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pabae.png" translatesAutoresizingMaskIntoConstraints="NO" id="75l-ix-uzQ">
+                                <rect key="frame" x="0.0" y="44" width="375" height="177"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GMAIL : fatihluthfi31@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YUr-qu-9Sa">
+                                <rect key="frame" x="16" y="464" width="343" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.73725490199999999" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ceP-j0-Cf6" firstAttribute="top" secondItem="Y05-EP-AaB" secondAttribute="top" id="8BQ-xX-cLX"/>
+                            <constraint firstItem="ceP-j0-Cf6" firstAttribute="leading" secondItem="Y05-EP-AaB" secondAttribute="leading" id="DjG-g4-VB0"/>
+                            <constraint firstAttribute="trailing" secondItem="75l-ix-uzQ" secondAttribute="trailing" id="Q0z-q6-ILy"/>
+                            <constraint firstItem="75l-ix-uzQ" firstAttribute="leading" secondItem="Y05-EP-AaB" secondAttribute="leading" id="Y03-A3-CEA"/>
+                            <constraint firstAttribute="trailing" secondItem="ceP-j0-Cf6" secondAttribute="trailing" id="lct-r8-fuk"/>
+                            <constraint firstItem="75l-ix-uzQ" firstAttribute="top" secondItem="ceP-j0-Cf6" secondAttribute="bottom" id="o7o-j1-0dE"/>
+                            <constraint firstItem="BKc-Ew-X73" firstAttribute="top" secondItem="75l-ix-uzQ" secondAttribute="bottom" constant="8" id="vFe-v1-2Lz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kTZ-dS-7vr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3312.8000000000002" y="928.78560719640188"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="images.png" width="225" height="225"/>
+        <image name="pabae.png" width="285" height="177"/>
+        <image name="serah.png" width="310" height="162"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="5NH-gx-gI6"/>
+        <segue reference="eNU-Pb-hHk"/>
+        <segue reference="kud-U2-9B7"/>
+    </inferredMetricsTieBreakers>
+</document>
